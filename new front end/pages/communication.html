@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Your Agency - Communications</title>
+        <link rel="stylesheet" href="../style/home.css" />
+        <link rel="stylesheet" href="../style/Communication.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo">CTMS</div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="communication.html">Communication</a></li>
+                    <li><a href="booking.html">Booking</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="communication-container">
+            <div class="communication-header">
+                <h1>Customer Communications</h1>
+                <div class="communication-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search messages..." />
+                        <button type="submit">Search</button>
+                    </div>
+                    <button class="new-message-btn">+ New Message</button>
+                </div>
+            </div>
+
+            <div class="communication-layout">
+                <div class="conversation-list">
+                    <div class="conversation active">
+                        <div class="conversation-header">
+                            <h3>Sarah Johnson</h3>
+                            <span class="time">Today, 10:30 AM</span>
+                        </div>
+                        <p class="preview">
+                            Hi, I wanted to ask about the meeting point for the
+                            Rome tour...
+                        </p>
+                        <span class="unread-badge">2</span>
+                    </div>
+                    <div class="conversation">
+                        <div class="conversation-header">
+                            <h3>Michael Brown</h3>
+                            <span class="time">Yesterday, 4:15 PM</span>
+                        </div>
+                        <p class="preview">Thanks for confirming my booking!</p>
+                    </div>
+                    <div class="conversation">
+                        <div class="conversation-header">
+                            <h3>Emma Wilson</h3>
+                            <span class="time">Yesterday, 11:20 AM</span>
+                        </div>
+                        <p class="preview">
+                            Do you have any vegetarian options for the tea
+                            ceremony lunch?
+                        </p>
+                    </div>
+                    <div class="conversation">
+                        <div class="conversation-header">
+                            <h3>David Lee</h3>
+                            <span class="time">Jun 12, 2024</span>
+                        </div>
+                        <p class="preview">
+                            I need to cancel my booking, please advise...
+                        </p>
+                    </div>
+                </div>
+
+                <div class="message-panel">
+                    <div class="message-header">
+                        <div class="recipient-info">
+                            <h2>Sarah Johnson</h2>
+                            <p>Booking: #CTMS-1254 (Historical Rome Tour)</p>
+                        </div>
+                        <button class="action-btn archive">Archive</button>
+                    </div>
+
+                    <div class="message-thread">
+                        <div class="message received">
+                            <div class="message-content">
+                                <p>
+                                    Hi, I wanted to ask about the meeting point
+                                    for the Rome tour on June 15th. Is it at the
+                                    main train station as mentioned in the
+                                    itinerary?
+                                </p>
+                            </div>
+                            <div class="message-meta">
+                                <span class="time">Today, 10:30 AM</span>
+                            </div>
+                        </div>
+
+                        <div class="message received">
+                            <div class="message-content">
+                                <p>Also, what time should we arrive?</p>
+                            </div>
+                            <div class="message-meta">
+                                <span class="time">Today, 10:31 AM</span>
+                            </div>
+                        </div>
+
+                        <div class="message sent">
+                            <div class="message-content">
+                                <p>
+                                    Hello Sarah, yes we meet at Roma Termini
+                                    station at the main entrance. Please arrive
+                                    by 8:45 AM for a 9:00 AM departure.
+                                </p>
+                            </div>
+                            <div class="message-meta">
+                                <span class="time">Today, 11:15 AM</span>
+                                <span class="status">Delivered</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="message-composer">
+                        <textarea
+                            placeholder="Type your message here..."></textarea>
+                        <div class="composer-actions">
+                            <button class="attach-btn">Attach File</button>
+                            <button class="send-btn">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Your Agency Name. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

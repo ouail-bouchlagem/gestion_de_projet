@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" href="../style/register-login.css" />
+    </head>
+    <body>
+        <div class="auth-container">
+            <div class="auth-card">
+                <h1>Register</h1>
+                <p class="subtitle">
+                    Create an account to start managing cultural trips
+                </p>
+
+                <form class="auth-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Create Password</label>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input
+                            type="password"
+                            id="confirm-password"
+                            name="confirm-password"
+                            required />
+                    </div>
+
+                    <div class="form-group terms">
+                        <input
+                            type="checkbox"
+                            id="terms"
+                            name="terms"
+                            required />
+                        <label for="terms"
+                            >I agree to the <a href="#">Terms of Service</a> and
+                            <a href="#">Privacy Policy</a></label
+                        >
+                    </div>
+
+                    <button type="submit" class="auth-btn">
+                        Create Account
+                    </button>
+                </form>
+
+                <div class="auth-footer">
+                    <p>
+                        Already have an account?
+                        <a href="login.html">Login here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
